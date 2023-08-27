@@ -1,0 +1,62 @@
+/* style.css */
+body.spooky-background {
+    font-family: 'Creepster', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ff9900;
+}
+
+.spooky-title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.story-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.spooky-text {
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #ff5555;
+    font-weight: bold;
+}
+
+.navigation-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.navigation-button:hover {
+    background-color: #c0392b;
+}
+
+.story {
+    text-align: center;
+}
+
+.roll-button {
+    background-color:#ff9900;
+    color: #1a1a1a;
+}
